@@ -1,0 +1,39 @@
+:root{
+    --primary-color:#e47312;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:'Roboto' sans-serif,Arial;
+    padding: 20px 20px 0 50px;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+a:hover{
+    opacity: 0;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+.quote{
+    background-color: var(--primary-color);
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+.quote h1{
+margin-top: 0;
+}
+.quote p{
+    margin-top: 0;
+}
+    .quote h1{
+        margin-top: 0;
+        }
